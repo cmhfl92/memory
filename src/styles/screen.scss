@@ -7,8 +7,36 @@ html {
   text-size-adjust: 100%;
 }
 
-body {
+div {
   @include font-smoothing(on);
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  background-image: url('http://previews.123rf.com/images/bozenafulawka/bozenafulawka1305/bozenafulawka130500003/19584885-Sea-shells-on-sandy-beach-background-with-copy-space-Top-view-Stock-Photo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
+
+
+table {
+  margin: 0 auto;
+  border-spacing: 10px 10px;
+}
+
+tr {
+  background-color: #f3e0b5;
+}
+
+td {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #3e2811;
+  // border: solid 5px hsla(165, 100%, 48%, 1);
+}
+
+// .seahorse {
+//   // display: flex;
+//   // align-items: center;
+//   // justify-content: center;
+// }
