@@ -1,3 +1,4 @@
+//this scss is styling the td only and implementing the images to the cards.
 td.root {
   height: 20vw;
   width: 20vw;
@@ -18,6 +19,7 @@ td.root {
   &.up {
     //
     img {
+      // opacity is making the cards look like their flipped over though it's an invisibility trick.
       opacity: 1;
     }
   }

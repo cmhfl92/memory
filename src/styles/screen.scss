@@ -2,7 +2,7 @@
 
 $base-text-size: 16px;
 $base-font-family: sans-serif;
-
+//this scss only has the overall div (body)/html writing
 html {
   text-size-adjust: 100%;
 }
@@ -11,7 +11,13 @@ div {
   @include font-smoothing(on);
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
-  background-image: url('http://previews.123rf.com/images/bozenafulawka/bozenafulawka1305/bozenafulawka130500003/19584885-Sea-shells-on-sandy-beach-background-with-copy-space-Top-view-Stock-Photo.jpg');
+  background-image: url('https://s-media-cache-ak0.pinimg.com/564x/9f/f2/59/9ff25907fb35b45b85aacd4dec61d9ab.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+  h1 {
+    color: hsla(2, 100%, 63%, 1);
+    text-align: center;
+    padding-top: 1em;
+  }
